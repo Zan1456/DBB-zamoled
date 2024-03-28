@@ -1,0 +1,29 @@
+:root {
+    --main: black !important;
+    --dark: rgb(41, 41, 41) !important;
+}
+
+div.PESW-list, div.PESW-top-bar, div.PESW-bottom-bar, div.WE-top-bar, div.sidebar, div.HW-content, div.H-button, div.PESW-workspace-card.open, div#PESW-create-workspace.PESW-button, label.SO-choice, div.HW-header, div.navigation-bar, div.PESW-workspace-card, input, div.page, div.popup-menu, div.SS-button.active, select, div.PES-item-properties, button, div.mouse-modal, div.IB-body, div.IB-category-name, div.IB-category-content, div.IB-block {
+    background-color: var(--main) !important;
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+}
+
+input.SO-checkbox, div.NB-blob {
+    background-color: var(--main) !important;
+    border: 1px solid var(--dark);
+    border-radius: 15px;
+}
+
+span.menu-name, div {
+    background-color: var(--main) !important;
+    border: none;
+}
+
+div#workspace {
+    background-color: var(--dark) !important;
+}
+
+select.block-option-input {
+    color: white !important;
+}
