@@ -3,27 +3,57 @@
     --dark: rgb(41, 41, 41) !important;
 }
 
-div.PESW-list, div.PESW-top-bar, div.PESW-bottom-bar, div.WE-top-bar, div.sidebar, div.HW-content, div.H-button, div.PESW-workspace-card.open, div#PESW-create-workspace.PESW-button, label.SO-choice, div.HW-header, div.navigation-bar, div.PESW-workspace-card, input, div.page, div.popup-menu, div.SS-button.active, select, div.PES-item-properties, button, div.mouse-modal, div.IB-body, div.IB-category-name, div.IB-category-content, div.IB-block {
+div.sidebar, div.HW-content, div.H-button, div.PESW-workspace-card.open, div#PESW-create-workspace.PESW-button, label.SO-choice, div.navigation-bar, div.PESW-workspace-card, input, div.page, div.popup-menu, div.SS-button.active, select, div.PES-item-properties, button, div.mouse-modal, div.IB-body, div.IB-category-name, div.IB-category-content, div.note-header, div.block-header, span.menu-name, div#workspace {
     background-color: var(--main) !important;
-    border: 1px solid var(--dark);
-    border-radius: 5px;
 }
 
-input.SO-checkbox, div.NB-blob {
+input.SO-checkbox, div.NB-blob, input.PESW-search, div.IB-block, div.H-button {
     background-color: var(--main) !important;
     border: 1px solid var(--dark);
     border-radius: 15px;
 }
 
-span.menu-name, div {
-    background-color: var(--main) !important;
-    border: none;
-}
-
-div#workspace {
-    background-color: var(--dark) !important;
-}
-
 select.block-option-input {
     color: white !important;
+}
+
+div.PESW-list, div.NB-blob-container {
+    border-right: 1px solid var(--dark);
+}
+
+div.PESW-top-bar {
+    border-bottom: 1px solid var(--dark);
+    border-right: 1px solid var(--dark);
+}
+
+div.PESW-bottom-bar{
+    background-color: var(--main) !important;
+    border-right: 1px solid var(--dark);
+    border-top: 1px solid var(--dark);
+}
+
+div.WE-top-bar {
+    background-color: var(--main) !important;
+    border-bottom: 1px solid var(--dark);
+}
+
+div.block-body {
+    background-color: var(--main) !important;
+    border-top: 1px solid var(--dark);
+}
+
+div.HW-header {
+    background-color: var(--main) !important;
+    border: 1px solid var(--dark);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.HW-content {
+    background-color: var(--main) !important;
+    border-right: 1px solid var(--dark);
+    border-left: 1px solid var(--dark);
+    border-bottom: 1px solid var(--dark);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
